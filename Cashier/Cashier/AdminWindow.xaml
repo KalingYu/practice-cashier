@@ -1,0 +1,13 @@
+﻿<Window x:Class="Cashier.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cashier"
+        mc:Ignorable="d"
+        Title="管理员订单和菜单管理" Height="820" Width="800">
+    <Grid>
+        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Left" Height="359" Margin="1,3,0,0" VerticalAlignment="Top" Width="131"/>
+
+    </Grid>
+</Window>
