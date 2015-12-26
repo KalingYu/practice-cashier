@@ -6,8 +6,37 @@
         xmlns:local="clr-namespace:Cashier"
         mc:Ignorable="d"
         Title="管理员订单和菜单管理" Height="820" Width="800">
-    <Grid>
-        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Left" Height="359" Margin="1,3,0,0" VerticalAlignment="Top" Width="131"/>
+    <Grid Height="792.5" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" Padding="10" FontSize="24" Margin="0,0,0,0" TextWrapping="Wrap" Text="管理员订单编辑系统" VerticalAlignment="Top" Background="#FF9800" Foreground="White" Grid.ColumnSpan="2"/>
+        <Image x:Name="icon_iconfont_caidan01_png" Grid.ColumnSpan="2" Margin="11.5,56.5,0,0" Source="icon/iconfont-caidan01.png" Width="30" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" d:LayoutOverrides="Width, Height" RenderTransformOrigin="0.683,-0.442" />
+        <TextBlock x:Name="textBlock1" Foreground="#909090" HorizontalAlignment="Right" Margin="0,95,689.75,0" TextWrapping="Wrap" Text="用户中心" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417"/>
+        <Image x:Name="icon_iconfont_caidan01_png_Copy" Grid.ColumnSpan="2" Margin="8.5,124.82,0,0" Source="icon/iconfont-yonghu01.png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <TextBlock x:Name="textBlock1_Copy" Foreground="#212121" HorizontalAlignment="Right" Margin="0,125,664.583,0" TextWrapping="Wrap" Text="管理员名字" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417"/>
+        <TextBlock x:Name="textBlock1_Copy1" Foreground="#909090" HorizontalAlignment="Right" Margin="0,164.75,689.083,0" TextWrapping="Wrap" Text="菜单管理" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417"/>
+        <Image x:Name="icon_iconfont_caidan01_png_Copy1" Grid.ColumnSpan="2" Margin="11.5,192.57,0,0" Source="icon/iconfont-caidan (1).png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <TextBlock x:Name="textBlock1_Copy2" Foreground="#212121" HorizontalAlignment="Right" Margin="0,193.07,664.083,0" TextWrapping="Wrap" Text="菜单编辑" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417"/>
+        <TextBlock x:Name="textBlock1_Copy3" Foreground="#212121" HorizontalAlignment="Right" Margin="0,218.39,664.083,0" TextWrapping="Wrap" Text="添加食物" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417"/>
+        <Image x:Name="icon_iconfont_caidan01_png_Copy2" Grid.ColumnSpan="2" Margin="11.5,192.57,0,0" Source="icon/iconfont-caidan (1).png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <Image x:Name="icon_iconfont_caidan01_png_Copy3" Grid.ColumnSpan="2" Margin="11.5,192.57,0,0" Source="icon/iconfont-caidan (1).png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <Image x:Name="icon_iconfont_caidan01_png_Copy4" Grid.ColumnSpan="2" Margin="11.5,192.57,0,0" Source="icon/iconfont-caidan (1).png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <Image x:Name="icon_iconfont_caidan01_png_Copy5" Grid.ColumnSpan="2" Margin="8.5,124.82,0,0" Source="icon/iconfont-yonghu01.png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <Image x:Name="icon_iconfont_caidan01_png_Copy6" Grid.ColumnSpan="2" Margin="11.5,192.57,0,0" Source="icon/iconfont-caidan (1).png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <Image x:Name="icon_iconfont_caidan01_png_Copy7" Grid.ColumnSpan="2" Margin="8.5,124.82,0,0" Source="icon/iconfont-yonghu01.png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <Image x:Name="icon_iconfont_caidan01_png_Copy8" Grid.ColumnSpan="2" Margin="11.5,192.57,0,0" Source="icon/iconfont-caidan (1).png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <Image x:Name="icon_iconfont_caidan01_png_Copy9" Grid.ColumnSpan="2" Margin="11.5,192.57,0,0" Source="icon/iconfont-caidan (1).png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <TextBlock x:Name="textBlock1_Copy4" Foreground="#909090" HorizontalAlignment="Right" Margin="0,251.21,689.083,0" TextWrapping="Wrap" Text="订单管理" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417"/>
+        <Image x:Name="icon_iconfont_caidan01_png_Copy10" Grid.ColumnSpan="2" Margin="8.5,124.82,0,0" Source="icon/iconfont-yonghu01.png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.683,-0.442" />
+        <TextBlock x:Name="textBlock1_Copy5" Foreground="#212121" HorizontalAlignment="Right" Margin="0,276.53,664.083,0" TextWrapping="Wrap" Text="已完成订单" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417" RenderTransformOrigin="0.548,2.804"/>
+        <TextBlock x:Name="textBlock1_Copy6" Foreground="#212121" HorizontalAlignment="Right" Margin="0,303.35,664.083,0" TextWrapping="Wrap" Text="未完成订单" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417" RenderTransformOrigin="0.548,2.804"/>
+        <Image x:Name="image" Grid.ColumnSpan="2" Source="icon/iconfont-shiwu.png" HorizontalAlignment="Left" Height="20" Margin="11.5,220.21,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="-11.625,-1.061"/>
+        <Image x:Name="image1" Grid.ColumnSpan="2" Source="icon/iconfont-dingdan copy.png" HorizontalAlignment="Left" Height="20" Margin="11.5,276.53,0,0" VerticalAlignment="Top" Width="20"/>
+        <Image x:Name="image2" Grid.ColumnSpan="2" Source="icon/iconfont-dingdan copy2.png" HorizontalAlignment="Left" Height="20" Margin="11.5,303.67,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="-12.788,3.027"/>
+        <Image x:Name="image3" Grid.ColumnSpan="2" Source="icon/iconfont-dingdan-white.png" HorizontalAlignment="Right" Height="50" Margin="0,22.82,41.25,0" VerticalAlignment="Top" Width="50"/>
+        <Frame x:Name="frame" Grid.ColumnSpan="2" Content="Frame" Height="271.32" Margin="154.25,95,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
