@@ -86,18 +86,34 @@ namespace Cashier
         private void CheckAndRegister()
         {
             String conStr = "server=localhost;User Id=root;password=;Database=canyin";
-            MySqlConnection myCon = new MySqlConnection(conStr);
-            myCon.Open();
-            String cmdtest = "insert into user(user_id, user, password, identity) values('', 'testuser', 'testpass', 1)";
-            MySqlCommand mycmd = new MySqlCommand(cmdtest, myCon);
+            MySqlConnection conn = new MySqlConnection(conStr);
+            conn.Open();
+            String cmd = "insert into user(user_id, user, password) values(''," + user  + "," + password + ")";
+            MySqlCommand mycmd = new MySqlCommand(cmd, conn);
             if(mycmd.ExecuteNonQuery() > 0)
             {
-                MessageBox.Show("成功");
+                MessageBox.Show("注册成功！");
+                conn.Close();
+                OpenWaiterWindow();
             }
             else
             {
-                MessageBox.Show("对不起，用户注册失败");
+                MessageBox.Show("对不起，用户注册失败，请再次尝试！");
+             
             }
         }
+
+        //打开管理员窗口
+        private void OpenAdminWindow()
+        {
+
+        }
+
+        //打开服务员窗口
+        private void OpenWaiterWindow()
+        {
+
+        }
+
     }
 }

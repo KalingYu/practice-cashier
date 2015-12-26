@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data.MySqlClient;
 
 namespace Cashier
 {
@@ -90,6 +91,46 @@ namespace Cashier
 
         //检查用户的数据，如果查询失败则返回密码错误
         private void CheckInfoAndLogin()
+        {
+            
+            try
+            {
+                String conStr = "server=localhost;User Id=root;password=;Database=canyin";
+                MySqlConnection conn = new MySqlConnection(conStr);
+                conn.Open();
+                string cmd = "select * from user where user=" + user;
+                MySqlCommand myCmd = new MySqlCommand(cmd, conn);
+                MySqlDataReader reader = myCmd.ExecuteReader();
+                reader.Read();
+                string dbUser = reader["user"].ToString();
+                string dbPassword = reader["password"].ToString();
+                if (password.Equals(password) && dbUser.Equals("admin"))
+                {
+                    OpenAdminWindow();
+                }
+                else if (password.Equals(password))
+                {
+                    OpenWaiterWindow();
+                }
+                conn.Close();
+            }
+        
+            catch(Exception e)
+            {
+                String msg = e.Message;
+                MessageBox.Show("数据库连接错误！" + msg);
+            }
+          
+        }
+
+        //打开管理员窗口
+        private void OpenAdminWindow()
+        {
+
+        }
+
+        //打开服务员窗口
+        private void OpenWaiterWindow()
         {
 
         }
