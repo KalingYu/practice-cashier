@@ -98,7 +98,7 @@ namespace Cashier
                 String conStr = "server=localhost;User Id=root;password=;Database=canyin";
                 MySqlConnection conn = new MySqlConnection(conStr);
                 conn.Open();
-                string cmd = "select * from user where user=" + user;
+                string cmd = "select * from user where user=user";
                 MySqlCommand myCmd = new MySqlCommand(cmd, conn);
                 MySqlDataReader reader = myCmd.ExecuteReader();
                 reader.Read();
