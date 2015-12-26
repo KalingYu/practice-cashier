@@ -65,3 +65,5 @@ E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\C
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Microsoft.MSXML.dll
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\stdole.dll
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\WaiterWindow.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\WaiterWindow.baml

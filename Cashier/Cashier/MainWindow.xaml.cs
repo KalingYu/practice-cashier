@@ -126,13 +126,17 @@ namespace Cashier
         //打开管理员窗口
         private void OpenAdminWindow()
         {
-
+            AdminWindow aw = new AdminWindow();
+            aw.Show();
+            this.Close();
         }
 
         //打开服务员窗口
         private void OpenWaiterWindow()
         {
-
+            WaiterWindow ww = new WaiterWindow();
+            ww.Show();
+            this.Close();
         }
 
     }

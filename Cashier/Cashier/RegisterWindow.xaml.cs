@@ -85,34 +85,42 @@ namespace Cashier
         //验证用户信息， 如果不存在用户就并注册用户信息
         private void CheckAndRegister()
         {
-            String conStr = "server=localhost;User Id=root;password=;Database=canyin";
-            MySqlConnection conn = new MySqlConnection(conStr);
-            conn.Open();
-            String cmd = "insert into user(user_id, user, password) values(''," + user  + "," + password + ")";
-            MySqlCommand mycmd = new MySqlCommand(cmd, conn);
-            if(mycmd.ExecuteNonQuery() > 0)
+            try
             {
-                MessageBox.Show("注册成功！");
-                conn.Close();
-                OpenWaiterWindow();
+                String conStr = "server=localhost;User Id=root;password=;Database=canyin";
+                MySqlConnection conn = new MySqlConnection(conStr);
+                conn.Open();
+                String cmd = "insert into user( user, password) values(user, password)";
+                MySqlCommand mycmd = new MySqlCommand(cmd, conn);
+                if (mycmd.ExecuteNonQuery() > 0)
+                {
+                    MessageBox.Show("注册成功！");
+                    conn.Close();
+                    OpenWaiterWindow();
+                }
             }
-            else
+            catch (Exception e)
             {
-                MessageBox.Show("对不起，用户注册失败，请再次尝试！");
-             
+                MessageBox.Show("对不起，用户注册失败，请再次尝试！" + e.Message + "您输入的用户名" + user + "您输入的密码" + password + "不合规范");
             }
+            
+      
         }
 
         //打开管理员窗口
         private void OpenAdminWindow()
         {
-
+            AdminWindow aw = new AdminWindow();
+            aw.Show();
+            this.Close();
         }
 
         //打开服务员窗口
         private void OpenWaiterWindow()
         {
-
+            WaiterWindow ww = new WaiterWindow();
+            ww.Show();
+            this.Close();
         }
 
     }
