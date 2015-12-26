@@ -134,7 +134,6 @@
   <ItemGroup>
     <Resource Include="icon\iconfont-caidan %281%29.png" />
     <Resource Include="icon\iconfont-caidan.png" />
-    <Resource Include="icon\iconfont-dingdan copy 2.png" />
     <Resource Include="icon\iconfont-dingdan copy.png" />
     <Resource Include="icon\iconfont-dingdan-white.png" />
     <Resource Include="icon\iconfont-dingdan.png" />
@@ -142,6 +141,9 @@
     <Resource Include="icon\iconfont-shiwu.png" />
     <Resource Include="icon\iconfont-xingyunshiwu.png" />
     <Resource Include="icon\iconfont-yonghu01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\iconfont-dingdan-done.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
