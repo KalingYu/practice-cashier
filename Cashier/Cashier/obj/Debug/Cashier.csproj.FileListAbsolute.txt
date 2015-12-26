@@ -37,3 +37,4 @@ E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.g.resources
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.Properties.Resources.resources
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.csprojResolveAssemblyReference.cache
