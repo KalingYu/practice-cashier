@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\App.xaml
-3807377582
+41439218807
 
-111609344560
+12-1346818416
 13738642453
-MainWindow.xaml;Register.xaml;RegisterWindow.xaml;
+AdminWindow.xaml;MainWindow.xaml;Register.xaml;RegisterWindow.xaml;
 
-False
+True
 
