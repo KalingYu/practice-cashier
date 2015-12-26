@@ -18,6 +18,7 @@ E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\RegisterWindow.baml
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\AdminWindow.g.cs
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\AdminWindow.baml
+<<<<<<< HEAD
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\Cashier.exe.config
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.exe
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.pdb
@@ -38,3 +39,28 @@ E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.Properties.Resources.resources
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.csproj.GenerateResource.Cache
 \\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.csprojResolveAssemblyReference.cache
+=======
+E:\Users\Kaling\Desktop\Cashier\Cashier\bin\Debug\Cashier.exe.config
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.exe
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.pdb
+E:\Users\Kaling\Desktop\Cashier\Cashier\bin\Debug\Cashier.exe
+E:\Users\Kaling\Desktop\Cashier\Cashier\bin\Debug\Cashier.pdb
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.csprojResolveAssemblyReference.cache
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\AdminWindow.g.cs
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\MainWindow.g.cs
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Register.g.cs
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\RegisterWindow.g.cs
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\App.g.cs
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.cache
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.lref
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\AdminWindow.baml
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\MainWindow.baml
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Register.baml
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\RegisterWindow.baml
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.g.resources
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.Properties.Resources.resources
+E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.csproj.GenerateResource.Cache
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Cashier.exe.config
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.exe
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.pdb
+>>>>>>> a5ea9eb87ef6b35a9946d87d69d3ff3a2b812923

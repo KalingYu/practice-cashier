@@ -34,7 +34,6 @@
         <TextBlock x:Name="textBlock1_Copy6" Foreground="#212121" HorizontalAlignment="Right" Margin="0,303.35,664.083,0" TextWrapping="Wrap" Text="未完成订单" VerticalAlignment="Top" Grid.Column="1" FontSize="16" Width="94.417" RenderTransformOrigin="0.548,2.804"/>
         <Image x:Name="image" Grid.ColumnSpan="2" Source="icon/iconfont-shiwu.png" HorizontalAlignment="Left" Height="20" Margin="11.5,220.21,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="-11.625,-1.061"/>
         <Image x:Name="image1" Grid.ColumnSpan="2" Source="icon/iconfont-dingdan copy.png" HorizontalAlignment="Left" Height="20" Margin="11.5,276.53,0,0" VerticalAlignment="Top" Width="20"/>
-        <Image x:Name="image2" Grid.ColumnSpan="2" Source="icon/iconfont-dingdan copy2.png" HorizontalAlignment="Left" Height="20" Margin="11.5,303.67,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="-12.788,3.027"/>
         <Image x:Name="image3" Grid.ColumnSpan="2" Source="icon/iconfont-dingdan-white.png" HorizontalAlignment="Right" Height="50" Margin="0,22.82,41.25,0" VerticalAlignment="Top" Width="50"/>
         <Frame x:Name="frame" Grid.ColumnSpan="2" Content="Frame" Height="271.32" Margin="154.25,95,0,0" VerticalAlignment="Top"/>
 

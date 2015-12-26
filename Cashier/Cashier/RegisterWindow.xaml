@@ -13,7 +13,7 @@
         <PasswordBox x:Name="passwordBox" Padding="7" HorizontalAlignment="Left" Margin="196,205,0,0" VerticalAlignment="Top" Width="245" Height="30"/>
         <Image x:Name="image1" Source="icon/iconfont-mima-once.png" HorizontalAlignment="Left" Height="30" Margin="153,205,0,0" VerticalAlignment="Top" Width="30"/>
         <Button x:Name="button" Content="注册" Background="#F57C00" FontSize="18" Foreground="#fff" HorizontalAlignment="Left" Margin="147,329,0,0" VerticalAlignment="Top" Width="115" Height="40" BorderThickness="0"/>
-        <Button x:Name="button1" Content="登录" Click="button1_Click" FontSize="18" Background="#cccccc" Foreground="#fff" HorizontalAlignment="Left" Margin="322,332,0,0" VerticalAlignment="Top" Width="115" Height="40" BorderThickness="0"/>
+        <Button x:Name="button1" Content="登录" Click="button1_Click" FontSize="18" Background="#cccccc" Foreground="#fff" HorizontalAlignment="Left" Margin="322,332,0,0" VerticalAlignment="Top" Width="115" Height="40"/>
         <PasswordBox x:Name="passwordBox_Copy" Padding="7" HorizontalAlignment="Left" Margin="195,266,0,0" VerticalAlignment="Top" Width="245" Height="30"/>
         <Image x:Name="image1_Copy" Source="icon/iconfont-mima.png" HorizontalAlignment="Left" Height="30" Margin="152,266,0,0" VerticalAlignment="Top" Width="30"/>
     </Grid>
