@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\
 Cashier
 none
 false
 DEBUG;TRACE
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\App.xaml
-4351218286
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\App.xaml
+11-1824420821
 
-8-1880845978
-17-1711324865
-AdminWindow.xaml;MainWindow.xaml;RegisterWindow.xaml;WaiterWindow.xaml;
+17-2023321538
+172030521090
+AddFoodPage.xaml;AdminWindow.xaml;FoodEditPage.xaml;MainWindow.xaml;MenuEditPage.xaml;OderCompletedPage.xaml;OderDetailPage.xaml;OderNotPage.xaml;RegisterWindow.xaml;WaiterMenuPage.xaml;WaiterWindow.xaml;
 
 False
 

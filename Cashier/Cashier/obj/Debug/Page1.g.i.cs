@@ -40,62 +40,6 @@ namespace Cashier {
     /// </summary>
     public partial class Page1 : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
-        
-        #line 12 "..\..\Page1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBlock textBox;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 13 "..\..\Page1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Image image;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 14 "..\..\Page1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox textBox1;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 15 "..\..\Page1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.PasswordBox passwordBox;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 16 "..\..\Page1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Image image1;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 17 "..\..\Page1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button button;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 18 "..\..\Page1.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button button1;
-        
-        #line default
-        #line hidden
-        
         private bool _contentLoaded;
         
         /// <summary>
@@ -124,30 +68,6 @@ namespace Cashier {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
-            switch (connectionId)
-            {
-            case 1:
-            this.textBox = ((System.Windows.Controls.TextBlock)(target));
-            return;
-            case 2:
-            this.image = ((System.Windows.Controls.Image)(target));
-            return;
-            case 3:
-            this.textBox1 = ((System.Windows.Controls.TextBox)(target));
-            return;
-            case 4:
-            this.passwordBox = ((System.Windows.Controls.PasswordBox)(target));
-            return;
-            case 5:
-            this.image1 = ((System.Windows.Controls.Image)(target));
-            return;
-            case 6:
-            this.button = ((System.Windows.Controls.Button)(target));
-            return;
-            case 7:
-            this.button1 = ((System.Windows.Controls.Button)(target));
-            return;
-            }
             this._contentLoaded = true;
         }
     }

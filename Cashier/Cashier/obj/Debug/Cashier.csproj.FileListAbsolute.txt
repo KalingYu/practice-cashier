@@ -1,84 +1,19 @@
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\bin\Debug\Cashier.exe.config
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\bin\Debug\Cashier.exe
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\bin\Debug\Cashier.pdb
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Cashier.csprojResolveAssemblyReference.cache
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\MainWindow.g.cs
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\App.g.cs
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.cache
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.lref
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\MainWindow.baml
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Cashier.g.resources
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Cashier.Properties.Resources.resources
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Cashier.csproj.GenerateResource.Cache
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Cashier.exe
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Cashier.pdb
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Register.g.cs
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\Register.baml
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\RegisterWindow.g.cs
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\RegisterWindow.baml
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\AdminWindow.g.cs
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\Cashier\obj\Debug\AdminWindow.baml
-<<<<<<< HEAD
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\Cashier.exe.config
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.exe
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.pdb
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\Cashier.exe
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\Cashier.pdb
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\AdminWindow.g.cs
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\MainWindow.g.cs
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Register.g.cs
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\RegisterWindow.g.cs
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\App.g.cs
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.cache
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.lref
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\AdminWindow.baml
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\MainWindow.baml
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Register.baml
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\RegisterWindow.baml
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.g.resources
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.Properties.Resources.resources
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.csproj.GenerateResource.Cache
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\Cashier.csprojResolveAssemblyReference.cache
-=======
-E:\Users\Kaling\Desktop\Cashier\Cashier\bin\Debug\Cashier.exe.config
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.exe
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.pdb
-E:\Users\Kaling\Desktop\Cashier\Cashier\bin\Debug\Cashier.exe
-E:\Users\Kaling\Desktop\Cashier\Cashier\bin\Debug\Cashier.pdb
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.csprojResolveAssemblyReference.cache
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\AdminWindow.g.cs
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\MainWindow.g.cs
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Register.g.cs
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\RegisterWindow.g.cs
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\App.g.cs
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.cache
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.lref
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\AdminWindow.baml
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\MainWindow.baml
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Register.baml
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\RegisterWindow.baml
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.g.resources
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.Properties.Resources.resources
-E:\Users\Kaling\Desktop\Cashier\Cashier\obj\Debug\Cashier.csproj.GenerateResource.Cache
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Cashier.exe.config
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.exe
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.pdb
->>>>>>> a5ea9eb87ef6b35a9946d87d69d3ff3a2b812923
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Cashier.exe
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Cashier.pdb
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.csprojResolveAssemblyReference.cache
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\AddFoodPage.g.cs
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\AdminWindow.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\FoodEditPage.g.cs
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\MainWindow.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\MenuEditPage.g.cs
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\RegisterWindow.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\WaiterWindow.g.cs
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\App.g.cs
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.cache
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier_MarkupCompile.lref
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\AdminWindow.baml
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\MainWindow.baml
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\RegisterWindow.baml
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.g.resources
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.Properties.Resources.resources
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.csproj.GenerateResource.Cache
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Cashier.exe
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Cashier.pdb
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\mysql.data.dll
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\mysql.data.entity.dll
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\mysql.visualstudio.dll
@@ -88,17 +23,24 @@ E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\C
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\Microsoft.MSXML.dll
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\bin\Debug\stdole.dll
-E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\WaiterWindow.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\AdminWindow.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\MainWindow.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\MenuEditPage.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\RegisterWindow.baml
 E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\WaiterWindow.baml
->>>>>>> 47569790324ca46b69b024226936b3dc96a84c1d
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\mysql.data.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\mysql.data.entity.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\mysql.visualstudio.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\mysql.web.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\EnvDTE.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\EnvDTE80.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\Microsoft.MSXML.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\bin\Debug\stdole.dll
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\WaiterWindow.g.cs
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\WaiterWindow.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\FoodEditPage.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\AddFoodPage.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.g.resources
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.Properties.Resources.resources
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\Cashier.csproj.GenerateResource.Cache
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\OderCompletedPage.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\OderNotPage.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\OderCompletedPage.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\OderNotPage.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\WaiterMenuPage.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\WaiterMenuPage.baml
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\OderDetailPage.g.cs
+E:\Users\Kaling\Documents\Visual Studio 2015\Projects\Cashier\practice-cashier\Cashier\Cashier\obj\Debug\OderDetailPage.baml
+\\Mac\Home\Desktop\2133421余嘉陵\源代码和数据库\Cashier\Cashier\bin\Debug\Cashier.exe.config
+\\Mac\Home\Desktop\2133421余嘉陵\源代码和数据库\Cashier\Cashier\obj\Debug\Cashier.exe
+\\Mac\Home\Desktop\2133421余嘉陵\源代码和数据库\Cashier\Cashier\obj\Debug\Cashier.pdb

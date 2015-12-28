@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cashier"
         mc:Ignorable="d"
-        Title="WaiterWindow" Height="300" Width="300">
-    <Grid>
-        
+        Title="WaiterWindow" Height="700" Width="800">
+    <Grid  VerticalAlignment="Top"  Height="700" Width="800">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="600"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="650"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="textBlock" Padding="10" Grid.Row="0" HorizontalAlignment="Stretch" FontSize="24" TextWrapping="Wrap" Text="服务员订单收银系统" VerticalAlignment="Top" Background="#FF9800" Foreground="White" Grid.ColumnSpan="2" Margin="0,0,0,0"/>
+
+        <Grid Grid.Column="0" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#F3F3F5" Grid.ColumnSpan="1" Margin="-4,0.4,4,-1" >
+            <Image x:Name="image" HorizontalAlignment="Left" Height="30" Margin="16,19,0,0" VerticalAlignment="Top" Width="30" Source="icon/iconfont-caidan01.png"/>
+            <Image x:Name="image1" HorizontalAlignment="Left" Height="20" Margin="17,110,0,0" VerticalAlignment="Top" Width="20" Source="/icon/iconfont-yonghu01.png" RenderTransformOrigin="-0.28,0.43"/>
+            <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="47,106,0,0" TextWrapping="Wrap" Text="服务员" VerticalAlignment="Top" Foreground="#FF414141" FontSize="21.333"/>
+            <Image x:Name="image1_Copy" HorizontalAlignment="Left" Height="20" Margin="16,204,0,0" VerticalAlignment="Top" Width="20" Source="icon/iconfont-caidan (1).png" RenderTransformOrigin="-0.28,0.43"/>
+            <Button x:Name="textBlock2_Copy" Click="textBlock2_Copy_Click" HorizontalAlignment="Left" Margin="45,199,0,0"  VerticalAlignment="Top" Foreground="#FF414141" FontSize="21.333" Content="菜单浏览" BorderThickness="0" Background="#00DDDDDD"/>
+            <Image x:Name="image1_Copy1"  HorizontalAlignment="Left" Height="20" Margin="14,247,0,0" VerticalAlignment="Top" Width="20" Source="icon/iconfont-dingdan copy.png" RenderTransformOrigin="-0.28,0.43"/>
+            <Button x:Name="textBlock2_Copy1" Click="textBlock2_Copy_Click"  HorizontalAlignment="Left" Margin="46,238,0,0"   VerticalAlignment="Top" Foreground="#FF414141" FontSize="21.333" Content="已完成订单" Background="{x:Null}" BorderThickness="0"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="7,63.4,0,0" Grid.Row="1" TextWrapping="Wrap" Text="用户中心" VerticalAlignment="Top" FontSize="21.333" Foreground="#FF727272" RenderTransformOrigin="0.341,0.709"/>
+            <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="7,157.4,0,0" Grid.Row="1" TextWrapping="Wrap" Text="订单管理" VerticalAlignment="Top" FontSize="21.333" Foreground="#FF727272" RenderTransformOrigin="0.341,0.709"/>
+            <Image x:Name="image1_Copy2"  HorizontalAlignment="Left" Height="20" Margin="12,283,0,0" VerticalAlignment="Top" Width="20" Source="icon/iconfont-dingdan copy 2.png" RenderTransformOrigin="-0.28,0.43"/>
+            <Button x:Name="textBlock2_Copy2" Click="textBlock2_Copy_Click"  HorizontalAlignment="Left" Margin="44,277,0,0"   VerticalAlignment="Top" Foreground="#FF414141" FontSize="21.333" Content="未完成订单" Background="{x:Null}" BorderThickness="0"/>
+
+
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+
+            <Frame x:Name="frame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" />
+
+
+        </Grid>
+
+
+
     </Grid>
 </Window>

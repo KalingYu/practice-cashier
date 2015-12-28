@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\obj\Debug\
+\\Mac\Home\Desktop\2133421余嘉陵\源代码和数据库\Cashier\Cashier\obj\Debug\
 Cashier
 none
 false
 DEBUG;TRACE
-\\Mac\Home\Documents\LOVE\c#\Cashier\Cashier\App.xaml
-4351218286
+\\Mac\Home\Desktop\2133421余嘉陵\源代码和数据库\Cashier\Cashier\App.xaml
+11-1824420821
 
-12572046084
-17-1711324865
-AdminWindow.xaml;MainWindow.xaml;RegisterWindow.xaml;WaiterWindow.xaml;
+21429570524
+17874199283
+AddFoodPage.xaml;AdminWindow.xaml;FoodEditPage.xaml;MainWindow.xaml;MenuEditPage.xaml;OderCompletedPage.xaml;OderDetailPage.xaml;OderNotPage.xaml;RegisterWindow.xaml;WaiterMenuPage.xaml;WaiterWindow.xaml;
 
 False
 

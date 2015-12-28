@@ -1,0 +1,26 @@
+﻿<Page x:Class="Cashier.OderCompletedPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Cashier"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="600"
+      Title="OderCompletedPage">
+
+    <Grid>
+        <Rectangle Fill="#FF536DFE" HorizontalAlignment="Left" Height="30" Margin="35,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="3" StrokeThickness="0"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="47,40,0,0" TextWrapping="Wrap" Text="已完成订单" VerticalAlignment="Top" RenderTransformOrigin="-0.112,1.224" FontSize="26.667"/>
+        <ListView  Name="listView" ItemsSource="{Binding}" Margin="35,104,82,1.6" BorderThickness="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="订单编号" DisplayMemberBinding="{Binding Path=oder_id}"  Width="120" />
+                    <GridViewColumn Header="总价" DisplayMemberBinding="{Binding Path=sum}" Width="120"/>
+                    <GridViewColumn Header="已付" Width="120" DisplayMemberBinding="{Binding Path=paid}" />
+                    <GridViewColumn Header="找零" Width="120" DisplayMemberBinding="{Binding Path=change}"/>
+                
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Page>

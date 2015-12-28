@@ -1,0 +1,29 @@
+﻿<Page x:Class="Cashier.AddFoodPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Cashier"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="600"
+      Title="AddFoodPage">
+
+    <Grid>
+        <Rectangle Fill="#FF536DFE" HorizontalAlignment="Left" Height="30" Margin="35,43,0,0" Stroke="Black" VerticalAlignment="Top" Width="3" StrokeThickness="0"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="47,40,0,0" TextWrapping="Wrap" Text="添加食物" VerticalAlignment="Top" RenderTransformOrigin="-0.112,1.224" FontSize="26.667"/>
+        <Label x:Name="label" Content="食物名称：" HorizontalAlignment="Left" Margin="32,103,0,0" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.527,0.511"/>
+        <TextBox x:Name="foodNameBox" HorizontalAlignment="Left" Height="24" Margin="158,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontSize="18.667"/>
+        <Label x:Name="label_Copy" Content="价格：" HorizontalAlignment="Left" Margin="30,147,0,0" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox x:Name="priceBox" HorizontalAlignment="Left" Height="24" Margin="157,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontSize="18.667"/>
+        <Label x:Name="label_Copy1" Content="类别" HorizontalAlignment="Left" Margin="28,193,0,0" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.5,0.5"/>
+        <ComboBox x:Name="categoryBox" HorizontalAlignment="Left" Margin="157,204,0,0" VerticalAlignment="Top" Width="200" Height="24">
+            <ComboBoxItem Content="sweetmeat" />
+            <ComboBoxItem Content="vegetable" />
+            <ComboBoxItem Content="meat" />
+        </ComboBox>
+
+        <Button x:Name="btn" Click="btn_Click" Content="添加" HorizontalAlignment="Left" Margin="37,287,0,0" VerticalAlignment="Top" Width="322" BorderThickness="0" Height="34" Foreground="White" Background="#FFF57C00" FontSize="18.667" />
+        <TextBlock x:Name="resultBox" HorizontalAlignment="Left" Margin="42,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="25" FontSize="16" Foreground="#FFF34235"/>
+
+    </Grid>
+</Page>

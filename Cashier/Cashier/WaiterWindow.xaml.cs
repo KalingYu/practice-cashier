@@ -22,6 +22,40 @@ namespace Cashier
         public WaiterWindow()
         {
             InitializeComponent();
+            frame.Source = new Uri("WaiterMenuPage.xaml", UriKind.Relative);
+        }
+
+        private void textBlock2_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            String choice = btn.Content.ToString();
+            switch (choice)
+            {
+                case "菜单浏览":
+                    LoadWaiterMenuPage();
+                    break;
+                case "已完成订单":
+                    LoadOderCompletedPage();
+                    break;
+                case "未完成订单":
+                    LoadOderNotPage();
+                    break;
+            }
+        }
+
+        private void LoadWaiterMenuPage()
+        {
+            frame.Source = new Uri("WaiterMenuPage.xaml", UriKind.Relative);
+        }
+
+        private void LoadOderNotPage()
+        {
+            frame.Source = new Uri("OderNotPage.xaml", UriKind.Relative);
+        }
+
+        private void LoadOderCompletedPage()
+        {
+            frame.Source = new Uri("OderCompletedPage.xaml", UriKind.Relative);
         }
     }
 }

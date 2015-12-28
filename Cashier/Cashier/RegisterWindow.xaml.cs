@@ -87,21 +87,22 @@ namespace Cashier
         {
             try
             {
-                String conStr = "server=localhost;User Id=root;password=;Database=canyin";
-                MySqlConnection conn = new MySqlConnection(conStr);
+                
+                MySqlConnection conn = new MySqlConnection(CommonValue.mysqlConectString);
                 conn.Open();
-                String cmd = "insert into user( user, password) values(user, password)";
+                String cmd = "insert into user( user, password) values('" + user +  "','" + password + "')";
                 MySqlCommand mycmd = new MySqlCommand(cmd, conn);
                 if (mycmd.ExecuteNonQuery() > 0)
                 {
                     MessageBox.Show("注册成功！");
+                    CommonValue.USER_NAME = user;
                     conn.Close();
                     OpenWaiterWindow();
                 }
             }
             catch (Exception e)
             {
-                MessageBox.Show("对不起，用户注册失败，请再次尝试！" + e.Message );
+                MessageBox.Show("对不起，用户注册失败，请再次尝试！" + e.Message);
             }
             
       

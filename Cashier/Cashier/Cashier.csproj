@@ -67,16 +67,47 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddFoodPage.xaml.cs">
+      <DependentUpon>AddFoodPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdminWindow.xaml.cs">
       <DependentUpon>AdminWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonValue.cs" />
+    <Compile Include="FoodEditPage.xaml.cs">
+      <DependentUpon>FoodEditPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuEditPage.xaml.cs">
+      <DependentUpon>MenuEditPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MysqlDatabaseConn.cs" />
+    <Compile Include="OderCompletedPage.xaml.cs">
+      <DependentUpon>OderCompletedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OderDetailPage.xaml.cs">
+      <DependentUpon>OderDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OderNotPage.xaml.cs">
+      <DependentUpon>OderNotPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="RegisterWindow.xaml.cs">
       <DependentUpon>RegisterWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WaiterMenuPage.xaml.cs">
+      <DependentUpon>WaiterMenuPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WaiterWindow.xaml.cs">
       <DependentUpon>WaiterWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddFoodPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AdminWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FoodEditPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -92,7 +123,27 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MenuEditPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OderCompletedPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OderDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OderNotPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RegisterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WaiterMenuPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -157,6 +208,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon\iconfont-caidan %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\iconfont-bianji.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

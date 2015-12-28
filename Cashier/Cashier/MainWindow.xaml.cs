@@ -94,23 +94,28 @@ namespace Cashier
         {
             
             try
-            {
-                String conStr = "server=localhost;User Id=root;password=;Database=canyin";
-                MySqlConnection conn = new MySqlConnection(conStr);
+            {             
+                MySqlConnection conn = new MySqlConnection(CommonValue.mysqlConectString);
                 conn.Open();
-                string cmd = "select * from user where user=user";
+                string cmd = "select * from user where user='" + user + "'";
                 MySqlCommand myCmd = new MySqlCommand(cmd, conn);
                 MySqlDataReader reader = myCmd.ExecuteReader();
                 reader.Read();
                 string dbUser = reader["user"].ToString();
                 string dbPassword = reader["password"].ToString();
-                if (password.Equals(password) && dbUser.Equals("admin"))
+                if (password.Equals(dbPassword) && dbUser.Equals("admin"))
                 {
                     OpenAdminWindow();
+                    CommonValue.USER_NAME = user;
                 }
-                else if (password.Equals(password))
+                else if (password.Equals(dbPassword))
                 {
                     OpenWaiterWindow();
+                    CommonValue.USER_NAME = user;
+                }
+                else
+                {
+                    MessageBox.Show("密码输入错误，请重新输入!");
                 }
                 conn.Close();
             }
